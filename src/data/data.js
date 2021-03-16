@@ -10,16 +10,6 @@ export const movies = [
         '"21" is the fact-based story about six MIT students who were trained to become experts in card counting and subsequently took Vegas casinos for millions in winnings.',
   },
   {
-    title: '23',
-    img: true,
-    imdb: 'tt0126765',
-    genres: ['Thriller', 'Drama'],
-    year: 1998,
-    note: '7.3',
-    plot:
-        'When the orphaned Karl Koch and his friend David start breaking into government and military computers, an acquaintance senses that there is money in computer cracking - and travels to east Berlin to try to contact the KGB.',
-  },
-  {
     title: 'The Imitation Game',
     img: true,
     imdb: 'tt2084970',
@@ -28,6 +18,16 @@ export const movies = [
     note: '8.2',
     plot:
         'During World War II, the English mathematical genius Alan Turing tries to crack the German Enigma code with help from fellow mathematicians.',
+  },
+  {
+    title: 'Avalon',
+    img: true,
+    imdb: 'tt0267287',
+    genres: ['Science Fiction', 'Fantasy'],
+    year: 2001,
+    note: '6.6',
+    plot:
+        'In a dystopian world, a woman spends her time playing an illegal and dangerous game, hoping to find meaning in her world.',
   },
   {
     title: 'Anonymous',
@@ -40,6 +40,16 @@ export const movies = [
         'With the help of his new friends Alex Danyliuk turns to a life of crime and identity theft.',
   },
   {
+    title: 'Downloaded',
+    img: true,
+    imdb: 'tt2033981',
+    genres: ['Documentary'],
+    year: 2013,
+    note: '6.8',
+    plot:
+        'A documentary that explores the downloading revolution; the kids that created it, the bands and the businesses that were affected by it, and its impact on the world at large.',
+  },
+  {
     title: 'Antitrust',
     img: true,
     imdb: 'tt0218817',
@@ -49,6 +59,7 @@ export const movies = [
     plot:
         "A computer programmer's dream job at a hot Portland-based firm turns nightmarish when he discovers his boss has a secret and ruthless means of dispatching anti-trust problems.",
   },
+
   {
     title: 'Blackhat',
     img: true,
@@ -118,6 +129,16 @@ export const movies = [
     note: '5.6',
     plot:
         'A team of genius-but-broke grad students invent mind-reading technology that destroys their lives and threatens the future of free will itself.',
+  },
+  {
+    title: '23',
+    img: true,
+    imdb: 'tt0126765',
+    genres: ['Thriller', 'Drama'],
+    year: 1998,
+    note: '7.3',
+    plot:
+        'When the orphaned Karl Koch and his friend David start breaking into government and military computers, an acquaintance senses that there is money in computer cracking - and travels to east Berlin to try to contact the KGB.',
   },
   {
     title: 'Live Free or Die Hard',
@@ -328,16 +349,7 @@ export const movies = [
     plot:
         'After discovering a mysterious artifact buried beneath the Lunar surface, mankind sets off on a quest to find its origins with help from intelligent supercomputer H.A.L. 9000.',
   },
-  {
-    title: 'Avalon',
-    img: true,
-    imdb: 'tt0267287',
-    genres: ['Science Fiction', 'Fantasy'],
-    year: 2001,
-    note: '6.6',
-    plot:
-        'In a dystopian world, a woman spends her time playing an illegal and dangerous game, hoping to find meaning in her world.',
-  },
+
   {
     title: 'Blade Runner',
     img: true,
@@ -678,16 +690,7 @@ export const movies = [
     plot:
         'An exploration into how smart phones, social media, and the Internet are profoundly changing the way we interact and experience each other - for the good and for the bad.',
   },
-  {
-    title: 'Downloaded',
-    img: true,
-    imdb: 'tt2033981',
-    genres: ['Documentary'],
-    year: 2013,
-    note: '6.8',
-    plot:
-        'A documentary that explores the downloading revolution; the kids that created it, the bands and the businesses that were affected by it, and its impact on the world at large.',
-  },
+
   {
     title: 'Freedom Downtime',
     img: true,
