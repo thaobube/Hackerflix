@@ -1,5 +1,5 @@
 // Navigation Buttons
-const recentFilmButton = '<button type="button" class="btn btn-recent">RECENT MOVIES ONLY</button>';
+const recentFilmButton = '<button type="button" class="btn btn-secondary btn-recent">SHOW RECENT MOVIES</button>';
 
 export const selection = `
     <div class="selection">

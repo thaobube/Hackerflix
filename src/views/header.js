@@ -1,6 +1,6 @@
 // Header
 export const header = `
 <header class="navbar sticky-top navbar--dark">  
-  <a class="navbar__text">Hackerflix</a>
+  <div class="navbar__text"><i class="fas fa-film"></i> Hacker<span>Flix</span></div>
 </header>
 `;

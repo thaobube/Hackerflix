@@ -1,6 +1,6 @@
 // Function innerHtml to display movies & popup (hidden by default) depends on the parameter 'array'
 export function innerHtmlMain(array) {
-  let contentHtml = '<div class="d-flex flex-wrap justify-content-around"> ';
+  let contentHtml = '<div class="d-flex flex-wrap justify-content-center"> ';
   for (let i = 0; i < array.length; i++) {
     contentHtml += `    
         <div class="box-popup">       

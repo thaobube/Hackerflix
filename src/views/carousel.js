@@ -3,6 +3,7 @@ import { state } from '../data/state';
 
 export function innerHtmlCarousel() {
   let contentInnerHtml = '';
+  contentInnerHtml += '<div class="background">';
   contentInnerHtml += `
   <div class="carousel">
     <p class="carousel__title">Movies suggestions for you:</p>
@@ -33,6 +34,7 @@ export function innerHtmlCarousel() {
             <i class="fas fa-angle-right"></i>
         </div>
     </div>
+  </div>
   </div>    
     `;
   return contentInnerHtml;
