@@ -3,7 +3,9 @@ import { state } from '../data/state';
 
 export function innerHtmlCarousel() {
   let contentInnerHtml = '';
-  contentInnerHtml += '<div class="background">';
+  contentInnerHtml += `<a name="home"></a>
+  <div class="background">  
+  `;
   contentInnerHtml += `
   <div class="carousel">
     <p class="carousel__title">Movies suggestions for you:</p>

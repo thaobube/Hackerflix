@@ -35,7 +35,7 @@ export function innerHtmlMain(array) {
         </div>               
             `;
   }
-  contentHtml += '</div>';
+  contentHtml += '</div><div class="fixedButton"><a href="#home"><i class="fas fa-chevron-up"></i></a></div>';
   return contentHtml;
 }
 // Content of the Main element

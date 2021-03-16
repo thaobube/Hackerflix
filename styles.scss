@@ -207,7 +207,20 @@
     }
   }
 }
-  
+.fixedButton {
+  // border: olive 2px solid;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 3px;
+  background: $dark-color;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  z-index: 1;
+  .fa-chevron-up {
+      color: $white-color;
+  }
+}  
 
 
 @media only screen and (min-width: 768px) {
